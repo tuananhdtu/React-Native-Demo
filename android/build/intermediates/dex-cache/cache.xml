@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/anhlee/AwesomeProject/android/app/build/intermediates/exploded-aar/AwesomeProject/RCTVideo/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2f0097c02589cb8b8826d63f8bc560a74d9c4971">
+        <dex dex="/Users/anhlee/AwesomeProject/android/app/build/intermediates/pre-dexed/debug/classes-1eaee1d25fc71c8b659a605e3782a5dce825d973.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		700AAF961CB1F136003C1559 /* MoviesApp.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 700AAF951CB1F136003C1559 /* MoviesApp.ios.js */; };
+		705020F51CB2B75300929375 /* libRCTVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 705020F41CB2B66E00929375 /* libRCTVideo.a */; };
+		708B210C1CAFFD11001B11DF /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 708B20F31CAFFC26001B11DF /* libRCTImage.a */; };
+		708B210D1CAFFD11001B11DF /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 708B20F91CAFFC41001B11DF /* libRCTLinking.a */; };
+		708B210E1CAFFD11001B11DF /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 708B20E71CAFFBA6001B11DF /* libRCTNetwork.a */; };
+		708B210F1CAFFD11001B11DF /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 708B20ED1CAFFC0F001B11DF /* libRCTText.a */; };
+		708B21101CAFFD11001B11DF /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 708B20E11CAFFB39001B11DF /* libRCTWebSocket.a */; };
+		708B21111CAFFD11001B11DF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 708B20FF1CAFFC54001B11DF /* libReact.a */; };
+		708B211D1CB00540001B11DF /* getImageSource.js in Resources */ = {isa = PBXBuildFile; fileRef = 708B21121CB00540001B11DF /* getImageSource.js */; };
+		708B211E1CB00540001B11DF /* getStyleFromScore.js in Resources */ = {isa = PBXBuildFile; fileRef = 708B21131CB00540001B11DF /* getStyleFromScore.js */; };
+		708B211F1CB00540001B11DF /* getTextFromScore.js in Resources */ = {isa = PBXBuildFile; fileRef = 708B21141CB00540001B11DF /* getTextFromScore.js */; };
+		708B21201CB00540001B11DF /* MovieCell.js in Resources */ = {isa = PBXBuildFile; fileRef = 708B21151CB00540001B11DF /* MovieCell.js */; };
+		708B21211CB00540001B11DF /* MoviesApp.android.js in Resources */ = {isa = PBXBuildFile; fileRef = 708B21161CB00540001B11DF /* MoviesApp.android.js */; };
+		708B21231CB00540001B11DF /* MovieScreen.js in Resources */ = {isa = PBXBuildFile; fileRef = 708B21181CB00540001B11DF /* MovieScreen.js */; };
+		708B21241CB00540001B11DF /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 708B21191CB00540001B11DF /* package.json */; };
+		708B21251CB00540001B11DF /* SearchBar.android.js in Resources */ = {isa = PBXBuildFile; fileRef = 708B211A1CB00540001B11DF /* SearchBar.android.js */; };
+		708B21261CB00540001B11DF /* SearchBar.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 708B211B1CB00540001B11DF /* SearchBar.ios.js */; };
+		708B21271CB00540001B11DF /* SearchScreen.js in Resources */ = {isa = PBXBuildFile; fileRef = 708B211C1CB00540001B11DF /* SearchScreen.js */; };
+		708B21291CB006C4001B11DF /* MoviesAppLogin.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 708B21281CB006C4001B11DF /* MoviesAppLogin.ios.js */; };
+		709B672A1CB2C72800827C6D /* VideoPlayer.js in Resources */ = {isa = PBXBuildFile; fileRef = 709B67291CB2C72800827C6D /* VideoPlayer.js */; };
+		709B672F1CB2D1B900827C6D /* broadchurch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 709B672D1CB2D0BF00827C6D /* broadchurch.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		705020F31CB2B66E00929375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 705020EF1CB2B66D00929375 /* RCTVideo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTVideo;
+		};
+		708B20E01CAFFB39001B11DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708B20DC1CAFFB39001B11DF /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C86DF461ADF2C930047B81A;
+			remoteInfo = RCTWebSocket;
+		};
+		708B20E61CAFFBA6001B11DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708B20E21CAFFBA6001B11DF /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B511DB1A9E6C8500147676;
+			remoteInfo = RCTNetwork;
+		};
+		708B20EC1CAFFC0F001B11DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708B20E81CAFFC0F001B11DF /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
+			remoteInfo = RCTText;
+		};
+		708B20F21CAFFC26001B11DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708B20EE1CAFFC26001B11DF /* RCTImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5115D1A9E6B3D00147676;
+			remoteInfo = RCTImage;
+		};
+		708B20F81CAFFC41001B11DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708B20F41CAFFC40001B11DF /* RCTLinking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTLinking;
+		};
+		708B20FE1CAFFC54001B11DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708B20FA1CAFFC54001B11DF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		708B21001CAFFC97001B11DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708B20FA1CAFFC54001B11DF /* React.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 83CBBA2D1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		708B21021CAFFC9B001B11DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708B20F41CAFFC40001B11DF /* RCTLinking.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B511DA1A9E6C8500147676;
+			remoteInfo = RCTLinking;
+		};
+		708B21041CAFFC9E001B11DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708B20EE1CAFFC26001B11DF /* RCTImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B5115C1A9E6B3D00147676;
+			remoteInfo = RCTImage;
+		};
+		708B21061CAFFCA2001B11DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708B20E81CAFFC0F001B11DF /* RCTText.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B5119A1A9E6C1200147676;
+			remoteInfo = RCTText;
+		};
+		708B21081CAFFCA5001B11DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708B20E21CAFFBA6001B11DF /* RCTNetwork.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B511DA1A9E6C8500147676;
+			remoteInfo = RCTNetwork;
+		};
+		708B210A1CAFFCA9001B11DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708B20DC1CAFFB39001B11DF /* RCTWebSocket.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C86DF451ADF2C930047B81A;
+			remoteInfo = RCTWebSocket;
+		};
+		709B672B1CB2CD0000827C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 705020EF1CB2B66D00929375 /* RCTVideo.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B511DA1A9E6C8500147676;
+			remoteInfo = RCTVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13B07F961A680F5B00A75B9A /* Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Movies/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Movies/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Movies/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Movies/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Movies/main.m; sourceTree = "<group>"; };
+		700AAF951CB1F136003C1559 /* MoviesApp.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MoviesApp.ios.js; sourceTree = "<group>"; };
+		705020EF1CB2B66D00929375 /* RCTVideo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVideo.xcodeproj; path = "node_modules/react-native-video/RCTVideo.xcodeproj"; sourceTree = "<group>"; };
+		708B20DC1CAFFB39001B11DF /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
+		708B20E21CAFFBA6001B11DF /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
+		708B20E81CAFFC0F001B11DF /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		708B20EE1CAFFC26001B11DF /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
+		708B20F41CAFFC40001B11DF /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		708B20FA1CAFFC54001B11DF /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		708B21121CB00540001B11DF /* getImageSource.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getImageSource.js; sourceTree = "<group>"; };
+		708B21131CB00540001B11DF /* getStyleFromScore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getStyleFromScore.js; sourceTree = "<group>"; };
+		708B21141CB00540001B11DF /* getTextFromScore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getTextFromScore.js; sourceTree = "<group>"; };
+		708B21151CB00540001B11DF /* MovieCell.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MovieCell.js; sourceTree = "<group>"; };
+		708B21161CB00540001B11DF /* MoviesApp.android.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MoviesApp.android.js; sourceTree = "<group>"; };
+		708B21181CB00540001B11DF /* MovieScreen.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MovieScreen.js; sourceTree = "<group>"; };
+		708B21191CB00540001B11DF /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		708B211A1CB00540001B11DF /* SearchBar.android.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SearchBar.android.js; sourceTree = "<group>"; };
+		708B211B1CB00540001B11DF /* SearchBar.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SearchBar.ios.js; sourceTree = "<group>"; };
+		708B211C1CB00540001B11DF /* SearchScreen.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SearchScreen.js; sourceTree = "<group>"; };
+		708B21281CB006C4001B11DF /* MoviesAppLogin.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MoviesAppLogin.ios.js; sourceTree = "<group>"; };
+		709B67291CB2C72800827C6D /* VideoPlayer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = VideoPlayer.js; sourceTree = "<group>"; };
+		709B672D1CB2D0BF00827C6D /* broadchurch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = broadchurch.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705020F51CB2B75300929375 /* libRCTVideo.a in Frameworks */,
+				708B210C1CAFFD11001B11DF /* libRCTImage.a in Frameworks */,
+				708B210D1CAFFD11001B11DF /* libRCTLinking.a in Frameworks */,
+				708B210E1CAFFD11001B11DF /* libRCTNetwork.a in Frameworks */,
+				708B210F1CAFFD11001B11DF /* libRCTText.a in Frameworks */,
+				708B21101CAFFD11001B11DF /* libRCTWebSocket.a in Frameworks */,
+				708B21111CAFFD11001B11DF /* libReact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				709B672D1CB2D0BF00827C6D /* broadchurch.mp4 */,
+				709B67291CB2C72800827C6D /* VideoPlayer.js */,
+				700AAF951CB1F136003C1559 /* MoviesApp.ios.js */,
+				708B21281CB006C4001B11DF /* MoviesAppLogin.ios.js */,
+				708B21121CB00540001B11DF /* getImageSource.js */,
+				708B21131CB00540001B11DF /* getStyleFromScore.js */,
+				708B21141CB00540001B11DF /* getTextFromScore.js */,
+				708B21151CB00540001B11DF /* MovieCell.js */,
+				708B21161CB00540001B11DF /* MoviesApp.android.js */,
+				708B21181CB00540001B11DF /* MovieScreen.js */,
+				708B21191CB00540001B11DF /* package.json */,
+				708B211A1CB00540001B11DF /* SearchBar.android.js */,
+				708B211B1CB00540001B11DF /* SearchBar.ios.js */,
+				708B211C1CB00540001B11DF /* SearchScreen.js */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Movies;
+			sourceTree = "<group>";
+		};
+		58C571FC1AA6124500CDF9C8 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				705020EF1CB2B66D00929375 /* RCTVideo.xcodeproj */,
+				708B20FA1CAFFC54001B11DF /* React.xcodeproj */,
+				708B20F41CAFFC40001B11DF /* RCTLinking.xcodeproj */,
+				708B20EE1CAFFC26001B11DF /* RCTImage.xcodeproj */,
+				708B20E81CAFFC0F001B11DF /* RCTText.xcodeproj */,
+				708B20E21CAFFBA6001B11DF /* RCTNetwork.xcodeproj */,
+				708B20DC1CAFFB39001B11DF /* RCTWebSocket.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		705020F01CB2B66D00929375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				705020F41CB2B66E00929375 /* libRCTVideo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708B20DD1CAFFB39001B11DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				708B20E11CAFFB39001B11DF /* libRCTWebSocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708B20E31CAFFBA6001B11DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				708B20E71CAFFBA6001B11DF /* libRCTNetwork.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708B20E91CAFFC0F001B11DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				708B20ED1CAFFC0F001B11DF /* libRCTText.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708B20EF1CAFFC26001B11DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				708B20F31CAFFC26001B11DF /* libRCTImage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708B20F51CAFFC40001B11DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				708B20F91CAFFC41001B11DF /* libRCTLinking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708B20FB1CAFFC54001B11DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				708B20FF1CAFFC54001B11DF /* libReact.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Movies */,
+				58C571FC1AA6124500CDF9C8 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Movies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* Movies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Movies" */;
+			buildPhases = (
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				709B672C1CB2CD0000827C6D /* PBXTargetDependency */,
+				708B210B1CAFFCA9001B11DF /* PBXTargetDependency */,
+				708B21091CAFFCA5001B11DF /* PBXTargetDependency */,
+				708B21071CAFFCA2001B11DF /* PBXTargetDependency */,
+				708B21051CAFFC9E001B11DF /* PBXTargetDependency */,
+				708B21031CAFFC9B001B11DF /* PBXTargetDependency */,
+				708B21011CAFFC97001B11DF /* PBXTargetDependency */,
+			);
+			name = Movies;
+			productName = "Hello World";
+			productReference = 13B07F961A680F5B00A75B9A /* Movies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Facebook;
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Movies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 708B20EF1CAFFC26001B11DF /* Products */;
+					ProjectRef = 708B20EE1CAFFC26001B11DF /* RCTImage.xcodeproj */;
+				},
+				{
+					ProductGroup = 708B20F51CAFFC40001B11DF /* Products */;
+					ProjectRef = 708B20F41CAFFC40001B11DF /* RCTLinking.xcodeproj */;
+				},
+				{
+					ProductGroup = 708B20E31CAFFBA6001B11DF /* Products */;
+					ProjectRef = 708B20E21CAFFBA6001B11DF /* RCTNetwork.xcodeproj */;
+				},
+				{
+					ProductGroup = 708B20E91CAFFC0F001B11DF /* Products */;
+					ProjectRef = 708B20E81CAFFC0F001B11DF /* RCTText.xcodeproj */;
+				},
+				{
+					ProductGroup = 705020F01CB2B66D00929375 /* Products */;
+					ProjectRef = 705020EF1CB2B66D00929375 /* RCTVideo.xcodeproj */;
+				},
+				{
+					ProductGroup = 708B20DD1CAFFB39001B11DF /* Products */;
+					ProjectRef = 708B20DC1CAFFB39001B11DF /* RCTWebSocket.xcodeproj */;
+				},
+				{
+					ProductGroup = 708B20FB1CAFFC54001B11DF /* Products */;
+					ProjectRef = 708B20FA1CAFFC54001B11DF /* React.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Movies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		705020F41CB2B66E00929375 /* libRCTVideo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTVideo.a;
+			remoteRef = 705020F31CB2B66E00929375 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		708B20E11CAFFB39001B11DF /* libRCTWebSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTWebSocket.a;
+			remoteRef = 708B20E01CAFFB39001B11DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		708B20E71CAFFBA6001B11DF /* libRCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTNetwork.a;
+			remoteRef = 708B20E61CAFFBA6001B11DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		708B20ED1CAFFC0F001B11DF /* libRCTText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTText.a;
+			remoteRef = 708B20EC1CAFFC0F001B11DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		708B20F31CAFFC26001B11DF /* libRCTImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTImage.a;
+			remoteRef = 708B20F21CAFFC26001B11DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		708B20F91CAFFC41001B11DF /* libRCTLinking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTLinking.a;
+			remoteRef = 708B20F81CAFFC41001B11DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		708B20FF1CAFFC54001B11DF /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 708B20FE1CAFFC54001B11DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709B672F1CB2D1B900827C6D /* broadchurch.mp4 in Resources */,
+				708B211F1CB00540001B11DF /* getTextFromScore.js in Resources */,
+				708B21271CB00540001B11DF /* SearchScreen.js in Resources */,
+				708B21231CB00540001B11DF /* MovieScreen.js in Resources */,
+				708B21291CB006C4001B11DF /* MoviesAppLogin.ios.js in Resources */,
+				708B21261CB00540001B11DF /* SearchBar.ios.js in Resources */,
+				708B21201CB00540001B11DF /* MovieCell.js in Resources */,
+				708B21241CB00540001B11DF /* package.json in Resources */,
+				708B211E1CB00540001B11DF /* getStyleFromScore.js in Resources */,
+				709B672A1CB2C72800827C6D /* VideoPlayer.js in Resources */,
+				700AAF961CB1F136003C1559 /* MoviesApp.ios.js in Resources */,
+				708B21251CB00540001B11DF /* SearchBar.android.js in Resources */,
+				708B21211CB00540001B11DF /* MoviesApp.android.js in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				708B211D1CB00540001B11DF /* getImageSource.js in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		708B21011CAFFC97001B11DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = React;
+			targetProxy = 708B21001CAFFC97001B11DF /* PBXContainerItemProxy */;
+		};
+		708B21031CAFFC9B001B11DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCTLinking;
+			targetProxy = 708B21021CAFFC9B001B11DF /* PBXContainerItemProxy */;
+		};
+		708B21051CAFFC9E001B11DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCTImage;
+			targetProxy = 708B21041CAFFC9E001B11DF /* PBXContainerItemProxy */;
+		};
+		708B21071CAFFCA2001B11DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCTText;
+			targetProxy = 708B21061CAFFCA2001B11DF /* PBXContainerItemProxy */;
+		};
+		708B21091CAFFCA5001B11DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCTNetwork;
+			targetProxy = 708B21081CAFFCA5001B11DF /* PBXContainerItemProxy */;
+		};
+		708B210B1CAFFCA9001B11DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCTWebSocket;
+			targetProxy = 708B210A1CAFFCA9001B11DF /* PBXContainerItemProxy */;
+		};
+		709B672C1CB2CD0000827C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCTVideo;
+			targetProxy = 709B672B1CB2CD0000827C6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Movies;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"/Users/anhlee/AwesomeProject/node_modules/react-native/Libraries/**",
+					"/Users/anhlee/AwesomeProject/node_modules/react-native/**",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Movies/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Movies;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../Libraries/**";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"/Users/anhlee/AwesomeProject/node_modules/react-native/Libraries/**",
+					"/Users/anhlee/AwesomeProject/node_modules/react-native/**",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Movies/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Movies;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../Libraries/**";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/anhlee/AwesomeProject/node_modules/react-native/Libraries/**",
+					"$(inherited)",
+					"/Users/anhlee/AwesomeProject/node_modules/react-native/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/anhlee/AwesomeProject/node_modules/react-native/Libraries/**",
+					"$(inherited)",
+					"/Users/anhlee/AwesomeProject/node_modules/react-native/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
