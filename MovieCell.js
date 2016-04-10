@@ -76,7 +76,7 @@ var styles = StyleSheet.create({
   },
   movieTitle: {
     flex: 1,
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: '500',
     marginBottom: 2,
   },
@@ -92,9 +92,10 @@ var styles = StyleSheet.create({
   },
   cellImage: {
     backgroundColor: '#dddddd',
-    height: 93,
-    marginRight: 10,
+    height: 60,
+    margin: 10,
     width: 60,
+    borderRadius: 30,
   },
   cellBorder: {
     backgroundColor: 'rgba(0, 0, 0, 0.1)',

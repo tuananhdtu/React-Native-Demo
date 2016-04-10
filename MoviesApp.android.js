@@ -28,6 +28,7 @@ var {
 var MoviesAppLogin = require('./MoviesAppLogin');
 var SearchScreen = require('./SearchScreen');
 var MovieScreen = require('./MovieScreen');
+var VideoPlayer = require('./VideoPlayer');
 
 // khởi tạo view giao diện cho class
 var MoviesApp = React.createClass({
@@ -37,6 +38,11 @@ var MoviesApp = React.createClass({
       return <MoviesAppLogin navigator={navigator} />
     } else if (route.id === 2) {
       return <SearchScreen navigator={navigator} />
+    } else if (route.id === 3) {
+      return <MovieScreen navigator={navigator} title={route.title}
+                      movie={route.movie} />
+    } else if (route.id === 4) {
+      return <VideoPlayer navigator={navigator}  />
     } 
   },
     

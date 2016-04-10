@@ -61,29 +61,8 @@ class VideoPlayer extends Component {
             );
   }
   
-  renderRateControl(rate) {
-    const isSelected = (this.state.rate == rate);
-    
-    return (
-            <TouchableOpacity onPress={() => { this.setState({rate: rate}) }}>
-            <Text style={[styles.controlOption, {fontWeight: isSelected ? "bold" : "normal"}]}>
-            {rate}x
-            </Text>
-            </TouchableOpacity>
-            )
-  }
   
-  renderResizeModeControl(resizeMode) {
-    const isSelected = (this.state.resizeMode == resizeMode);
-    
-    return (
-            <TouchableOpacity onPress={() => { this.setState({resizeMode: resizeMode}) }}>
-            <Text style={[styles.controlOption, {fontWeight: isSelected ? "bold" : "normal"}]}>
-            {resizeMode}
-            </Text>
-            </TouchableOpacity>
-            )
-  }
+  
   
   renderVolumeControl(volume) {
     const isSelected = (this.state.volume == volume);
@@ -104,7 +83,7 @@ class VideoPlayer extends Component {
     return (
             <View style={styles.container}>
             <TouchableOpacity style={styles.fullScreen} onPress={() => {this.setState({paused: !this.state.paused})}}>
-            <Video source={{uri: "broadchurch"}}
+            <Video source={{uri: 'http://clips.vorwaerts-gmbh.de/VfE_html5.mp4'}}
             style={styles.fullScreen}
             rate={this.state.rate}
             paused={this.state.paused}
@@ -116,42 +95,6 @@ class VideoPlayer extends Component {
             onEnd={() => { AlertIOS.alert('Done!') }}
             repeat={true} />
             </TouchableOpacity>
-            
-            <View style={styles.controls}>
-            <View style={styles.generalControls}>
-            <View style={styles.skinControl}>
-            {this.renderSkinControl('custom')}
-            {this.renderSkinControl('native')}
-            {this.renderSkinControl('embed')}
-            </View>
-            </View>
-            <View style={styles.generalControls}>
-            <View style={styles.rateControl}>
-            {this.renderRateControl(0.5)}
-            {this.renderRateControl(1.0)}
-            {this.renderRateControl(2.0)}
-            </View>
-            
-            <View style={styles.volumeControl}>
-            {this.renderVolumeControl(0.5)}
-            {this.renderVolumeControl(1)}
-            {this.renderVolumeControl(1.5)}
-            </View>
-            
-            <View style={styles.resizeModeControl}>
-            {this.renderResizeModeControl('cover')}
-            {this.renderResizeModeControl('contain')}
-            {this.renderResizeModeControl('stretch')}
-            </View>
-            </View>
-            
-            <View style={styles.trackingControls}>
-            <View style={styles.progress}>
-            <View style={[styles.innerProgressCompleted, {flex: flexCompleted}]} />
-            <View style={[styles.innerProgressRemaining, {flex: flexRemaining}]} />
-            </View>
-            </View>
-            </View>
             </View>
             );
   }
@@ -175,32 +118,7 @@ class VideoPlayer extends Component {
             controls={this.state.controls} />
             </View>
             <View style={styles.controls}>
-            <View style={styles.generalControls}>
-            <View style={styles.skinControl}>
-            {this.renderSkinControl('custom')}
-            {this.renderSkinControl('native')}
-            {this.renderSkinControl('embed')}
-            </View>
-            </View>
-            <View style={styles.generalControls}>
-            <View style={styles.rateControl}>
-            {this.renderRateControl(0.5)}
-            {this.renderRateControl(1.0)}
-            {this.renderRateControl(2.0)}
-            </View>
-            
-            <View style={styles.volumeControl}>
-            {this.renderVolumeControl(0.5)}
-            {this.renderVolumeControl(1)}
-            {this.renderVolumeControl(1.5)}
-            </View>
-            
-            <View style={styles.resizeModeControl}>
-            {this.renderResizeModeControl('cover')}
-            {this.renderResizeModeControl('contain')}
-            {this.renderResizeModeControl('stretch')}
-            </View>
-            </View>
+
             </View>
             
             </View>

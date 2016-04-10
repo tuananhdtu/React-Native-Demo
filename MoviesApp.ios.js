@@ -37,6 +37,7 @@ var MoviesApp = React.createClass({
                                           initialRoute={{
                                           component: MoviesAppLogin,
                                           navigationBarHidden: true, //set hidden navibar
+                                          title:'Login'
                                           }}
                                           />
                                           );

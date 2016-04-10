@@ -37,7 +37,7 @@
    * on the same Wi-Fi network.
    */
 
-  jsCodeLocation = [NSURL URLWithString:@"http://192.168.1.5:8081/MoviesApp.ios.bundle?platform=ios&dev=true"];
+  jsCodeLocation = [NSURL URLWithString:@"http://192.168.1.2:8081/MoviesApp.ios.bundle?platform=ios&dev=true"];
 
   /**
    * OPTION 2

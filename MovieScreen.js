@@ -17,24 +17,42 @@
 var Button = require('react-native-button'); //Khởi tạo Button
 var React = require('react-native');
 var VideoPlayer = require('./VideoPlayer');
+
 var {
     Image,
     ScrollView,
     StyleSheet,
     Text,
     View,
+    Platform,
 } = React;
 
 var getImageSource = require('./getImageSource');
 var getStyleFromScore = require('./getStyleFromScore');
 var getTextFromScore = require('./getTextFromScore');
 
+var navigator; 
+
+React.BackAndroid.addEventListener('hardwareBackPress', () => {
+    if (navigator && navigator.getCurrentRoutes().length > 1) {
+        navigator.pop();
+        return true;
+    }
+    return false;
+});
+
 var MovieScreen = React.createClass({
 
     _handlePress() {
-        this.props.navigator.push({
-            component: VideoPlayer,
-        });
+        if (Platform.OS === 'ios') {
+            this.props.navigator.push({
+                title: 'Video',
+                component: VideoPlayer,
+            });
+        } else {
+            this.props.navigator.replace({ id: 4 });
+        }
+
     },
     render() {
         return (
@@ -51,12 +69,8 @@ var MovieScreen = React.createClass({
                         <Text style={styles.movieTitle}>{this.props.movie.title}</Text>
                         <Text>{this.props.movie.year}</Text>
                         <View style={styles.mpaaWrapper}>
-                            <Text style={styles.mpaaText}>
-                                {this.props.movie.mpaa_rating}
-                            </Text>
                             <Button
-                                style={styles.btnLogin}
-                                styleDisabled={{ color: 'red' }}
+                                    style={styles.btnLogin}
                                 onPress={this._handlePress}
                                 >
                                 Play
@@ -145,7 +159,7 @@ var styles = StyleSheet.create({
     mpaaWrapper: {
         alignSelf: 'flex-start',
         borderColor: 'black',
-        borderWidth: 1,
+        borderWidth: 0,
         paddingHorizontal: 3,
         marginVertical: 5,
     },
@@ -176,12 +190,12 @@ var styles = StyleSheet.create({
         marginLeft: 2,
     },
     btnLogin: {
-        marginTop: 20,
         width: 120,
         height: 40,
-        borderRadius: 5,
-        backgroundColor: 'white',
-        borderWidth: 1
+        borderRadius: 3,
+        backgroundColor: '#426EDD',
+        textAlign:'center',
+        color: 'white'
     },
 
 });

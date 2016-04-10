@@ -2,11 +2,25 @@
 <items version="2" >
 
     <item
-        jar="/Users/anhlee/AwesomeProject/android/app/build/intermediates/exploded-aar/AwesomeProject/RCTVideo/unspecified/jars/classes.jar"
+        jar="/Users/anhlee/.gradle/caches/modules-2/files-2.1/org.nanohttpd/nanohttpd/2.2.0/73a02117620b6cc7683a1ed6ae24c2f36e2a715/nanohttpd-2.2.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="2f0097c02589cb8b8826d63f8bc560a74d9c4971">
-        <dex dex="/Users/anhlee/AwesomeProject/android/app/build/intermediates/pre-dexed/debug/classes-1eaee1d25fc71c8b659a605e3782a5dce825d973.jar" />
+        sha1="073a02117620b6cc7683a1ed6ae24c2f36e2a715">
+        <dex dex="/Users/anhlee/React-Native-Demo/android/app/build/intermediates/pre-dexed/debug/nanohttpd-2.2.0-453b1ca7a6401a06b94733fed96e27b830c3eb53.jar" />
+    </item>
+    <item
+        jar="/Users/anhlee/React-Native-Demo/android/app/build/intermediates/exploded-aar/AwesomeProject/RCTVideo/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d3a9ced12e7542805514a85ba483adcdb427e2fa">
+        <dex dex="/Users/anhlee/React-Native-Demo/android/app/build/intermediates/pre-dexed/debug/classes-3aa7450f36d74e4fba3b8eaa602e8d206e18fa24.jar" />
+    </item>
+    <item
+        jar="/Users/anhlee/React-Native-Demo/android/app/build/intermediates/exploded-aar/AwesomeProject/realm/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bc03582965a66b11f5be1fd68d0fea0f71fc914d">
+        <dex dex="/Users/anhlee/React-Native-Demo/android/app/build/intermediates/pre-dexed/debug/classes-e2aed3b21ba22120d7a3123f05797edb77bd0cc9.jar" />
     </item>
 
 </items>

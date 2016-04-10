@@ -11,8 +11,8 @@ var {
     TextInput,
     View,
     Platform,
+    Image,
 } = React;
-
 
 //
 // React Native Classes
@@ -29,55 +29,42 @@ var MoviesAppLogin = React.createClass({
     _handlePress() {
         var username = this.state.username;
         var password = this.state.password;
+
         if (Platform.OS === 'ios') {
             this.props.navigator.replace({
                 title: 'Home',
                 component: SearchScreen,
             });
         } else {
-            this.props.navigator.push({id:2});
+            this.props.navigator.replace({ id: 2 });
         }
     },
 
     render() {
         return (
             <View style={styles.container}>
-
-                <Text style={styles.welcome}>
-                    Login View
-                </Text>
-
-                <Text style={styles.instructions}>
-                    username
-                </Text>
-
+                <View style={styles.viewLogin}>
+                <Image style={styles.imgLogo}
+                    source={{ uri: 'http://facebook.github.io/react/img/logo_og.png' }}
+                    />
                 <TextInput
                     style={styles.textEdit}
                     onChangeText={(username) => this.setState({ username }) }
                     placeholder="Nhập tên đăng nhập"
                     />
-
-                <Text style={styles.instructions}>
-                    password
-                </Text>
-
                 <TextInput
                     style={styles.textEdit}
                     onChangeText={(password) => this.setState({ password }) }
                     placeholder="Nhập mật khẩu"
                     />
-
-
                 <Button
                     style={styles.btnLogin}
-                    styleDisabled={{ color: 'red' }}
                     onPress={this._handlePress}
                     >
                     Login
                 </Button>
+                </View>
             </View>
-
-
         );
     }
 });
@@ -86,33 +73,36 @@ var MoviesAppLogin = React.createClass({
 var styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: 'orange',
-        padding: 20,
+        backgroundColor: '#A8D1FF',
+        paddingTop: 70,
     },
-    welcome: {
-        fontSize: 28,
-        textAlign: 'center',
-        margin: 20,
+    viewLogin: {
+        alignItems:'center',
+        justifyContent:'center'
     },
-    instructions: {
-        color: 'blue',
-        fontSize: 22,
-        marginBottom: 5,
+    imgLogo: {
+        width:100,
+        height:100,
+        marginBottom: 20
     },
     textEdit: {
         height: 40,
         borderColor: 'grey',
         backgroundColor: 'white',
-        borderWidth: 1
+        marginLeft: 20,
+        marginRight: 20,
+        marginTop: 10,
+        textAlign:'center',
+        borderRadius: 3,
     },
-
     btnLogin: {
         marginTop: 20,
-        width: 120,
+        width: 280,
         height: 40,
-        borderRadius: 5,
-        backgroundColor: 'white',
-        borderWidth: 1
+        borderRadius: 3,
+        backgroundColor: '#426EDD',
+        textAlign:'center',
+        color: 'white'
     },
 });
 module.exports = MoviesAppLogin;//AppRegistry.registerComponent('MoviesAppLogin', () => MoviesAppLogin);
